@@ -2,18 +2,13 @@
 <html lang="pl">
 
   <head>
-
      <meta charset="utf-8">
      <title>PHP odczyt z bazy danych</title>
-
      <meta name="description" content="Odczyt z Bazy Danych">
      <meta name="keywords" content="Odczyt z Bazy Danych">
      <meta name="PAIIM" content="Programowanie Aplikacji Internetowyc i Mobilnych">
-
      <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
      <link rel="stylesheet" href="index.css">
-   
-
   </head>
   <body>
   <h1>Odczyt z Bazy Danych</h1>
@@ -42,12 +37,6 @@
           echo"<p>$rekord[nazwa] - cena: $rekord[3]  zł. </p>";
           
       }
-     
-      
-   
-      
-    
       ?>
   </body>
-
 </html>
