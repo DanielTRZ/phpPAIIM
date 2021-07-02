@@ -25,16 +25,13 @@
           $ile=$_COOKIE['kurs12'];
           echo" Twoja wizyta nr : $ile";
           $ile++;
-          setcookie("kurs12",$ile,time()+3600);
-          
+          setcookie("kurs12",$ile,time()+3600);         
       }
       else{
           setcookie("kurs12",1,time()+3600);
           echo"<h1> Jesteś pierszy raz na stronie</h1>";
-      }
-      
+      }     
       ?>
 
   </body>
-
 </html>
