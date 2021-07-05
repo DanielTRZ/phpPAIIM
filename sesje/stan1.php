@@ -19,8 +19,7 @@
           echo"Zalogowany";
       }else{
           echo"ZALOGOWANY";
-      }
-   
+        }  
       ?>
 
   </body>
