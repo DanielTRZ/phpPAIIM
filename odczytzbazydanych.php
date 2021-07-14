@@ -34,8 +34,7 @@
       while($rekord=$dane->fetch()){
          
        
-          echo"<p>$rekord[nazwa] - cena: $rekord[3]  zł. </p>";
-          
+          echo"<p>$rekord[nazwa] - cena: $rekord[3]  zł. </p>";     
       }
       ?>
   </body>
