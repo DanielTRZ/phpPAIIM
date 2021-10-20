@@ -10,6 +10,7 @@
      <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
      <link rel="stylesheet" href="index.css">
   </head>
+  
   <body>
   <h1>Odczyt z Bazy Danych</h1>
   
@@ -37,5 +38,6 @@
           echo"<p>$rekord[nazwa] - cena: $rekord[3]  zł. </p>";     
       }
       ?>
+    
   </body>
 </html>
